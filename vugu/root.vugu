@@ -1,0 +1,21 @@
+<div class="demo">
+  <span class="red">hello, world!</span>
+  <button @click="data.Toggle()">Test</button>
+  <div vg-if="data.show" class="yellow">I am here!</div>
+</div>
+
+<style>
+  .red {
+    color: red;
+  }
+</style>
+
+<script type="application/x-go">
+  type RootData struct {
+    show bool
+  }
+
+  func (data *RootData) Toggle() {
+    data.show = !data.show
+  }
+</script>
