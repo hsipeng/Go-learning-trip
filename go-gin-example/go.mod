@@ -24,6 +24,7 @@ require (
 	github.com/mattn/go-sqlite3 v1.11.0 // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/smartystreets/goconvey v0.0.0-20190731233626-505e41936337 // indirect
+	github.com/stretchr/testify v1.4.0
 	github.com/swaggo/gin-swagger v1.0.1-0.20190110070702-0c6fcfd3c7f3
 	github.com/swaggo/swag v1.4.0
 	github.com/tealeg/xlsx v1.0.4-0.20180419195153-f36fa3be8893
@@ -33,4 +34,5 @@ require (
 	google.golang.org/appengine v1.6.3 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/ini.v1 v1.47.0 // indirect
+	gopkg.in/yaml.v2 v2.2.8 // indirect
 )
